@@ -1,25 +1,69 @@
-body {
-    text-align: center;
+* {
+ margin: 0;
+ padding: 0;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;   
 }
-#Cuerpo{
-    border: 4px solid black;
+body{
+    font-family:'Times New Roman', Times, serif
+
 }
-#Primercabecera{
-padding: 20px;
-border: 1px solid black;
-text-align: left;
+a{
+    text-decoration: none;
 }
-.Menu li { 
-list-style: none;
-padding: 5px;
-font: bold 14px verdana;
-display: inline-block;
-text-align: left;
+ul {
+    list-style: none;
+    
+}
+img {
+    max-width: 200px;
+
+}
+.Navegacion {
+    width: 100%;
+background: #D980FA;
+display: flex;
+justify-content: center;
 }
 .Menu {
-text-align: left;
-margin: none;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 90px;
 }
-.Seccion {
-margin: 10px;
+.Menu li {
+    flex-basis: 0;
+    flex-grow: 1;
+    border-right: 1px solid #FDA7DF;
+    position: relative;
+
+}
+.Menu li a {
+    display: flex;
+    flex-direction: column;
+}
+.Menu .Imagen {
+    position: absolute;
+    width: 30px;
+    bottom: 0;
+    
+}
+.Menu li a .Downitem {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #D980FA;
+    top: 0%;
+}
+.Menu li a .textitem {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    color: white;
+    position: absolute
+ z-index:  
 }
