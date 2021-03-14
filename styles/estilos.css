@@ -1,6 +1,4 @@
-body {
-    text-align: center;
-}
+
 .Titulo{
     height: 500px;
 }
@@ -10,16 +8,15 @@ nav ul {
       padding: 0;
 }
 
-.FondoTitulo{
-    background-image: url("../img/fondo.gif");
+.Titulo{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("../img/fondo.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-height: 300px;
+    max-height: 300px; 
 }
 
-
-h2{
+.Titulo h2{
     font-family: "Century Gothic";
     text-align: left;
     font-size: 700%;
@@ -27,7 +24,6 @@ h2{
     margin: auto;
     width: 35%;
 }
-
 
 .Apellido{
     font-style: italic;
