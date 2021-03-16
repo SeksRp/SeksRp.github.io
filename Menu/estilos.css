@@ -13,16 +13,36 @@
 	
   }
   #particles-js {
-	  height: 100%;
-	  width: 100%;
+	width: 100%;
+	height: 100%;
 	  position: fixed;
 	  z-index: -1;
   }
+ 
+  
+  .Articulo1{
+	  display:flexbox;
+	  z-index: 1;
+	  margin-left: 70px;
+	  margin-right: 10px;
+  }
+  
   .nombre-de-barra{
 	  font-size: 28px;
 	 margin-left: 25px;
 	 color: white;
   }
+  header img{
+	  width: 300px;
+	  height: 300px;
+  }
+  header p{
+	
+	  z-index: -1;
+  }
+div nav img {
+	width: 60px;
+}
  
 
   a {
