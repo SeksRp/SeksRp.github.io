@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Galeria</title>
+        <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="estilos.css">
+      </head>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+  
+    <div id="menu" class="container">
+      <!-- Navigation -->
+      <nav class="nav-main">
+        <!-- Brand -->
+        <img class="logoc1"src="favicon.png" alt="">
+        <div class="nombre-de-barra">Rodolfo Palencia</div>
+        <!-- Left Nav -->
+        <ul class="nav-menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Sobre mí</a>
+          </li>
+          <li>
+            <a href="#">Galeria de fotos</a>
+          </li> 
+        </ul>
+        <hr>
+<div>  
+        <body>
+            <div class="grid-container">
+              <img class="grid-item" src="Foto1.jpeg" width="230" height="328" />
+              <img class="grid-item" src="Foto2.jpeg" width="230" height="300" />
+              <img class="grid-item" src="Foto3.jpeg" width="230" height="310" />
+              <img class="grid-item" src="foto4.jpeg" width="270" height="300" />
+              <img class="grid-item" src="https://picsum.photos/230/180.jpg" width="230" height="180" />
+              <img class="grid-item" src="https://picsum.photos/230/340.jpg" width="230" height="340" />
+
+            </div>
+        
+            <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+            <script>
+              var elem = document.querySelector(".grid-container");
+              var msnry = new Masonry(elem, {
+                // options
+                itemSelector: ".grid-item",
+                columnWidth: 230,
+                gutter: 20,
+                isFitWidth: true
+              });
+            </script>
+          </body>
+</html>
